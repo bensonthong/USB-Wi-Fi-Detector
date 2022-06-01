@@ -11,5 +11,5 @@ $attachment = New-Object System.Net.Mail.Attachment($filenameAndPath)
 $SMTPMessage.Attachments.Add($attachment)
 $SMTPClient = New-Object Net.Mail.SmtpClient($SMTPServer, 587)
 $SMTPClient.EnableSsl = $true
-$SMTPClient.Credentials = New-Object System.Net.NetworkCredential(“bthongemail@gmail.com”, “ece4318group4”);
+$SMTPClient.Credentials = New-Object System.Net.NetworkCredential(“bthongemail@gmail.com”, “<this is password>”);
 $SMTPClient.Send($SMTPMessage)

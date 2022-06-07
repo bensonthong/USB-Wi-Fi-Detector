@@ -25,7 +25,7 @@ by Benson Thong
   - If all else fails, the Attiny85 bootloader is not installed so the bootloader needs to be flashed.
 ## Project Algorithm 
 ![](pictures/ProjectAlgorithm.png)
-
+This is a simple algorithm used to map how the Arduino IDE code works. This algorithm will only work in Windows OS and requires that the onsite hacker has administrative access to the victim's machine. 
 ## Project Setup
 ![](pictures/USB.png)
 

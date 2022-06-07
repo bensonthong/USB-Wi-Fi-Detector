@@ -4,7 +4,7 @@ by Benson Thong
 ## Project Description
 <br/>This project is built to showcase the effectiveness of keystroke injection using the Attiny85 microcontroller. It is designed to act stealthy and infiltrate Wi-Fi credentials using the command line interface and powershell. The motivation to build this project is to understand onsite hacking is done and its efficiency compared to remote hacking. The project works when the onsite hacker inserts the Attiny85 USB board on the victim's Windows machine. Following this, command keystrokes are done to grab all Wi-Fi credentials existing in the machine then it will run a downloaded powershell script to send the extracted Wi-Fi credentials in a single text file via SMTP process to the attacker's gmail. 
 
-<br/> This project provides a general understanding powershell scripts, hardware hacking, commands targeting cmd and powershell, necessary firmware needed, and programming the Attiny85. Wireshark is used to capture and analyze network traffic to protect any data breached while initating the onsite hacking. This is to ensure that the program is not flawed.   </br> 
+<br/> This project provides a general understanding of powershell scripts, hardware hacking, commands targeting cmd and powershell, necessary firmware needed, and programming the Attiny85. Wireshark is used to capture and analyze network traffic to protect any data breached while initating the onsite hacking. This is to ensure that the program is not flawed. </br> 
 
 ### Hardware Used
 - 4-Port USB hub 
@@ -25,7 +25,10 @@ by Benson Thong
   - If all else fails, the Attiny85 bootloader is not installed so the bootloader needs to be flashed.
 ## Project Algorithm 
 ![](pictures/ProjectAlgorithm.png)
-This is a simple algorithm used to map how the Arduino IDE code works. This algorithm will only work in Windows OS and requires that the onsite hacker has administrative access to the victim's machine. 
+<br/>This is a simple algorithm used to map how the Arduino IDE code works. This algorithm will only work in Windows OS and requires that the onsite hacker has administrative access to the victim's machine. </br>
 ## Project Setup
 ![](pictures/USB.png)
 
+## Wireshark 
+![](pictures/pcapimg.png) 
+<br/> As shown, TLS encrypts the data being sent over SMTP to protect any information leak. </br>

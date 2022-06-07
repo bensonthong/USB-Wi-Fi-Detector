@@ -12,7 +12,7 @@ by Benson Thong
 - Attiny85 USB development board by DigiSpark
   - The Attiny85 provides a USB interface to the user as long as necessary firmware is installed.
   - It also provides a keystroke library to allow user to program and execute keystrokes at a fast pace without user touching the keyboard.
-  - Select 
+  
 ### Software Used 
 - Arduino IDE
   - The development board manager needs to be installed by going to the Preferences tab and pasting http://digistump.com/package_digistump_index.json on the Additional Boards Manager URLs:
